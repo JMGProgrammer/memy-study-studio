@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Memy Study Studio</title>
+  <defs>
+    <linearGradient id="background" x1="8" y1="5" x2="56" y2="59" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#25364a"/>
+      <stop offset="1" stop-color="#11151c"/>
+    </linearGradient>
+    <linearGradient id="mark" x1="14" y1="19" x2="50" y2="45" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#b894e8"/>
+      <stop offset=".55" stop-color="#8b6fc4"/>
+      <stop offset="1" stop-color="#4fc1ff"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect x="3" y="3" width="58" height="58" rx="14" fill="url(#background)"/>
+  <rect x="3.75" y="3.75" width="56.5" height="56.5" rx="13.25" fill="none" stroke="#60758c" stroke-opacity=".48" stroke-width="1.5"/>
+  <path
+    d="M17.2 42.2c-6 0-10.2-4.1-10.2-10.2s4.2-10.2 10.2-10.2c5.8 0 9.3 4 14.8 11.9 5.5-7.9 9-11.9 14.8-11.9C52.8 21.8 57 25.9 57 32s-4.2 10.2-10.2 10.2c-5.8 0-9.3-4-14.8-11.9-5.5 7.9-9 11.9-14.8 11.9Zm0-6c2.7 0 5.4-2.7 8.9-7.4-3.5-4.1-6.2-5-8.9-5-2.7 0-4.6 2.8-4.6 8.2s1.9 4.2 4.6 4.2Zm29.6 0c2.7 0 4.6 1.2 4.6-4.2s-1.9-8.2-4.6-8.2c-2.7 0-5.4.9-8.9 5 3.5 4.7 6.2 7.4 8.9 7.4Z"
+    fill="url(#mark)"
+    filter="url(#glow)"
+  />
+  <circle cx="52" cy="12" r="3.5" fill="#4fc1ff"/>
+</svg>
